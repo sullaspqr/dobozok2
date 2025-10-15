@@ -3,7 +3,7 @@ import './App.css'
 export const App = () => {
   return (
       <div className="border">
-        Dobozok App
+        Dobozok App2
         <BoxComponent hatterSzin="green" kiindulo={2} />
         <BoxComponent hatterSzin="blue" kiindulo={3} />
         <BoxComponent hatterSzin="red" kiindulo={4} />
