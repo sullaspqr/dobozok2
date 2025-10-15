@@ -15,14 +15,14 @@ const BoxComponent=({kiindulo, hatterSzin}) => {
   return (
     <div
       style={{ 
-        width: "150px",
-        height: "150px",
+        width: "200px",
+        height: "200px",
         backgroundColor: hatterSzin,
       }}
       className="p-2 m-5 rounded"
       onClick={() => {
         setSzamlalo(getSzamlalo + 1);
-      }}><br /><br />
+      }}><br />
         <h1>{getSzamlalo}</h1>
       </div>
   );
